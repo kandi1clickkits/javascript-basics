@@ -8,9 +8,9 @@ ECHO 	Based on your network speed, the installation may take a while
 ECHO======================================================================================
 setlocal ENABLEDELAYEDEXPANSION
 REM update below path if required
-SET REPO_DOWNLOAD_URL=https://github.com/kandi1clickkits/javascript-basics/releases/download/v1.0.0/javascript-basics-main.zip
-SET REPO_NAME=javascript-basics-main.zip
-SET EXTRACTED_REPO_DIR=javascript-basics-main
+SET REPO_DOWNLOAD_URL=https://github.com/kandi1clickkits/javascript-basics/releases/download/v1.0.0/javascript-basics.zip
+SET REPO_NAME=javascript-basics.zip
+SET EXTRACTED_REPO_DIR=javascript-basics
 SET NOTEBOOK_NAME=index.html
 Call:Download_repo
 SET /P CONFIRM=Would you like to run the kit (Y/N)?
